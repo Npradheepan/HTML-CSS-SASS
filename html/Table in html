@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {width: 100%;}
+table caption {background-color: coral;}
+
+#table1 {
+   caption-side: top;
+}
+#table2 {
+   caption-side: bottom;
+}
+</style>
+</head>
+<body>
+<h1>CSS caption-side property</h1>
+
+
+<table id="table1" border="1">
+  <caption>Students Table</caption>
+  <tr>
+     <th>Name</th>
+     <th>City</th>
+  </tr>
+  <tr>
+     <td>Vishal</td>
+     <td>New Delhi</td>
+  </tr>
+  <tr>
+     <td>Tarush Balodhi</td>
+     <td>New Delhi</td>
+  </tr>
+  <tr>
+     <td>Ella</td>
+     <td>Goa</td>
+  </tr>
+  <tr>
+     <td>Nancy</td>
+     <td>Kohima</td>
+  </tr>
+</table>
+
+
+<table id="table2" border="1">
+  <caption>Students Table</caption>
+  <tr>
+     <th>Name</th>
+     <th>City</th>
+  </tr>
+  <tr>
+     <td>Vishal</td>
+     <td>New Delhi</td>
+  </tr>
+  <tr>
+     <td>Tarush Balodhi</td>
+     <td>New Delhi</td>
+  </tr>
+  <tr>
+     <td>Ella</td>
+     <td>Goa</td>
+  </tr>
+  <tr>
+     <td>Nancy</td>
+     <td>Kohima</td>
+  </tr>
+</table>
+
+</body>
+</html>
