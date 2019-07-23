@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ div {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    animation: square 3s infinite;
+    animation-direction: reverse;
+ }
+
+
+
+@keyframes square {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 200px; top: 0px;}
+    50%  {left: 200px; top: 200px;}
+    75%  {left: 0px; top: 200px;}
+    100% {left: 0px; top: 0px;}
+}
+</style>
+</head>
+<body>
+
+  <h1>The CSS3 animation-direction Property</h1>
+  <p>Playing the animation in reverse cycle:</p>
+  <div></div>
+
+</body>
+</html>
