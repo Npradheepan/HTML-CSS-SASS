@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+div {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    animation: move 3s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes move {
+    0%  {left:0;}
+    20% {left:300px; background-color: thistle;border-radius:10%; }
+    50% {left:700px;}
+    70% {left: 900px;background-color: teal;border-radius: 20%;}
+    100% {left:1200px;border-radius: 0%; background-color: turquoise;}
+}
+</style>
+<body>
+        <h1>The CSS3 animation-delay Property</h1>
+        <div></div>
+    
+</body>
+</html>

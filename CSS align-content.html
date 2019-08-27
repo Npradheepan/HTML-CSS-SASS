@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+    height: 300px;
+    background-color: #4caf50;
+    margin-bottom: 10px;
+    /* Standard syntax */    
+    display: flex;
+    flex-wrap: wrap;
+     /* Safari */
+    display: -webkit-flex; 
+    -webkit-flex-wrap: wrap;
+ }
+
+.flex-container > div {
+    background-color: rgba(200, 255, 200, .9);
+    margin: 10px;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+ 
+.start {
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+.center {
+   -webkit-align-content: center;
+   align-content: center;
+}
+.space-between {
+   -webkit-align-content: space-between;
+   align-content: space-between;
+}
+.space-around {
+   -webkit-align-content: space-around;
+   align-content: space-around;
+}
+</style>
+</head>
+<body>
+<h1>CSS align-content Property</h1>
+
+<h3>align-content: flex-start;</h3>
+<div class="flex-container start">
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <div>4</div>
+   <div>5</div>
+   <div>6</div>
+   <div>7</div>
+   <div>8</div>
+   <div>9</div>
+</div>
+
+<h3>align-content: center;</h3>
+<div class="flex-container center">
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <div>4</div>
+   <div>5</div>
+   <div>6</div>
+   <div>7</div>
+   <div>8</div>
+   <div>9</div>
+</div>
+
+<h3>align-content: space-between;</h3>
+<div class="flex-container space-between">
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <div>4</div>
+   <div>5</div>
+   <div>6</div>
+   <div>7</div>
+   <div>8</div>
+   <div>9</div>
+</div>
+
+<h3>align-content: space-around;</h3>
+<div class="flex-container space-around">
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <div>4</div>
+   <div>5</div>
+   <div>6</div>
+   <div>7</div>
+   <div>8</div>
+   <div>9</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    div {
+   position: relative;
+   width: 65px;
+   height: 65px;
+   margin: 4px;
+   background-color: rgb(211, 16, 178);
+   animation: demo 4s infinite;
+}
+.a{
+    background-color: rgb(73, 235, 28);
+}
+.b{
+    background-color: rgb(7, 158, 179);
+}
+.c{
+    background-color: rgb(235, 197, 28);
+}
+.d{
+    background-color: rgb(92, 10, 168);
+}
+
+ 
+@keyframes demo {
+   0%  {left:0;}
+   50% {left:84%;}
+   100% {left:0;}
+}
+
+.box {
+  
+   animation-timing-function: ease-in;
+   background-color: yellow;
+}
+
+</style>
+<body>
+        <h1>CSS animation-timing-function Property</h1>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="box"></div>
+        <div class="c"></div>
+        <div class="d"></div>  
+    
+</body>
+</html>
