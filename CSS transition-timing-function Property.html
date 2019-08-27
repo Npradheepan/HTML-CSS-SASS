@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  position: relative;
+  left: 0;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 5px;
+  background: #4285f4;
+  -webkit-transition: all 2s;  /* For Safari */
+  transition: all 2s;  /* Standard syntax */
+}
+
+/* For Safari */
+.box1 {transition-timing-function: -webkit-linear;}
+.box2 {transition-timing-function: -webkit-ease;}
+.box3 {transition-timing-function: -webkit-ease-in;}
+.box4 {transition-timing-function: -webkit-ease-out;}
+.box5 {transition-timing-function: -webkit-ease-in-out;}
+
+/* Standard syntax */
+.box1 {transition-timing-function: linear;}
+.box2 {transition-timing-function: ease;}
+.box3 {transition-timing-function: ease-in;}
+.box4 {transition-timing-function: ease-out;}
+.box5 {transition-timing-function: ease-in-out;}
+
+body:hover .box1,
+body:hover .box2,
+body:hover .box3,
+body:hover .box4,
+body:hover .box5{
+   left: calc(100% - 65px);
+}
+</style>
+</head>
+<body>
+
+<h1>CSS transition-timing-function Property</h1>
+
+<p>Hover over this frame, to see the different speed curves:</p>
+
+<div class="box1">linear</div>
+<div class="box2">ease</div>
+<div class="box3">ease-in</div>
+<div class="box4">ease-out</div>
+<div class="box5">ease-in-out</div>
+
+</body>
+</html>

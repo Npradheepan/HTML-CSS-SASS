@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ div {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    -webkit-animation: change 2s infinite; /* for Safari 4.0 - 8.0 */
+    animation: change 2s infinite;
+ }
+
+ /* for Safari 4.0 - 8.0 */
+ @-webkit-keyframes change {
+     0% {background-color: red;}
+     25% {background-color: yellow;}
+     50% {background-color: transparent;}
+     75% {background-color: rgb(19, 217, 19);}
+     100% {background-color: #4285f4;}
+ }
+
+ @keyframes change {
+     0% {background-color: red;}
+     25% {background-color: yellow;}
+     50% {background-color: transparent;}
+     75% {background-color: rgb(19, 217, 19);}
+     100% {background-color: #4285f4;}
+ } 
+</style>
+</head>
+<body>
+
+  <h1>The CSS3 animation Property</h1>
+  <div></div>
+  <p>This example demonstrates how to change background color using animation:</p>
+
+</body>
+</html>

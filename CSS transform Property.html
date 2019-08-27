@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body {
+    margin: 0 30px;
+    background-color: #EEEEEE;
+}
+
+div.card {
+    width: 280px;
+    padding: 10px;
+    border: 1px solid #A5A5A5;
+    background-color: #FFF;
+    box-shadow: 10px 10px 5px #ABABAB;
+}
+
+div.rotate_right {
+    display: inline-block;
+    -ms-transform: rotate(8deg); /* IE 9 */
+    -webkit-transform: rotate(8deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+div.rotate_left {
+    display: inline-block;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-120deg);
+}
+
+p.caption {
+    color: #757575;
+}
+</style>
+</head>
+<body>
+<h1>CSS transform Property</h1>
+
+<div class="card rotate_right">
+  <img src="/images/mumbai-cst.jpg" alt="Chhatrapati Shivaji Terminus" width="280" height="200">
+  <p class="caption">Chhatrapati Shivaji Terminus, Mumbai</p>
+</div>
+
+<div class="card rotate_left">
+  <img src="/images/carousel_red3.jpg" alt="Carousel" width="280" height="200">
+  <p class="caption">A Random wallpaper</p>
+</div>
+
+</body>
+</html>

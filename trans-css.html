@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+   position: relative;
+   width: 150px;
+   height: 150px;
+   background-color: red;
+   -webkit-animation: trans 2s infinite; /* for Safari 4.0 - 8.0 */
+   animation: trans 2s infinite;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes trans {
+    0% {transform: rotate(0deg); width: 0; height: 0;}
+    50% {transform: rotate(360deg); width: 300px; height: 300px;}
+    100% {transform: rotate(0deg); width: 0; height: 0;}
+}
+
+@keyframes trans {
+    0% {transform: rotate(0deg); width: 0; height: 0;}
+    50% {transform: rotate(360deg); width: 300px; height: 300px;}
+    100% {transform: rotate(0deg); width: 0; height: 0;}
+} 
+</style>
+</head>
+<body>
+
+<h1>The CSS3 animation Property</h1>
+<div></div>
+<p>This example demonstrates how to transform an element using animation:</p>
+
+</body>
+</html>

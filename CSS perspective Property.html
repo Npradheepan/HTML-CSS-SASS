@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.wrapper {
+   width: 50%;
+   float: left;
+   text-align: center;
+}
+
+.box1 {
+  -webkit-perspective: 1000px; /* Safari 4-8  */
+   perspective: 1000px;
+}
+
+.box2 {
+  -webkit-perspective: 250px; /* Safari 4-8  */
+   perspective: 250px;
+}
+
+.cube {
+   font-size: 4em;
+   width: 2em;
+   margin: 1.5em auto;
+  -webkit-transform-style: preserve-3d; /* Safari 3-8  */    
+   transform-style: preserve-3d;
+   transform: rotateX(-40deg) rotateY(32deg);
+}
+
+.face {
+   position: absolute;
+   width: 2em;
+   height: 2em;
+   background: rgba(255, 99, 71, 0.6);
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   color: white;
+   text-align: center;
+   line-height: 2em;
+}
+
+.front {
+   background: rgba(196, 0, 0, 0.7);
+   transform: translateZ(1em);
+}
+
+.top {
+   background: rgba(0, 0, 0, 0.3);
+   transform: rotateX(90deg) translateZ(1em);
+}
+
+.right {
+   background: rgba(0, 0, 196, 0.7);
+   transform: rotateY(90deg) translateZ(1em);
+}
+
+.left {
+   background: rgba(196, 0, 196, 0.7);
+   transform: rotateY(-90deg) translateZ(1em);
+}
+
+.bottom {
+   background: rgba(0, 255, 0, .8);
+   transform: rotateX(-90deg) translateZ(1em);
+}
+
+.back {
+   background: rgba(196, 196, 0, 0.7);
+   transform: rotateY(-180deg) translateZ(1em);
+}
+</style>
+</head>
+<body>
+<h1>CSS perspective Property</h1>
+
+<div class="wrapper box1">
+  <h2>perspective: 1000px</h2>
+  <div class="cube">
+    <div class="face front">5</div>
+    <div class="face back">6</div>
+    <div class="face right">4</div>
+    <div class="face left">3</div>
+    <div class="face top">1</div>
+    <div class="face bottom">2</div>
+  </div>
+</div>
+
+<div class="wrapper box2">
+  <h2>perspective: 250px</h2>
+  <div class="cube">
+    <div class="face front">5</div>
+    <div class="face back">6</div>
+    <div class="face right">4</div>
+    <div class="face left">3</div>
+    <div class="face top">1</div>
+    <div class="face bottom">2</div>
+  </div>
+</div>
+
+</body>
+</html>

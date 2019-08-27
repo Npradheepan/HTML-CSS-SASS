@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+   position: relative;
+   width: 65px;
+   height: 65px;
+   margin: 4px;
+   background-color: hsl(192, 78%, 70%);
+   -webkit-animation: demo 4s infinite;  /* for Safari 4.0 - 8.0 */
+   animation: demo 4s infinite;
+}
+ 
+  /* for Safari 4.0 - 8.0 */
+@-webkit-keyframes demo {
+   0%  {left:0;}
+   50% {left:84%;}
+   100% {left:0;}
+}
+
+@keyframes demo {
+   0%  {left:0;}
+   50% {left:84%;}
+   100% {left:0;}
+}
+
+.ex {
+ 
+   animation-timing-function: cubic-bezier(1, 0, 0, 0);
+   background-color: yellow;
+}
+.dx{
+animation-timing-function: cubic-bezier(0, 1, 0, 0);
+   background-color: orange;
+}
+.sx{
+animation-timing-function: cubic-bezier(0, 0, 1, 0);
+   background-color: blue;
+}
+.yx{
+animation-timing-function: cubic-bezier(0, 0, 0, 1);
+   background-color: green;
+}
+</style>
+</head>
+<body>
+<h1>CSS animation-timing-function Property</h1>
+<p>Custom timing function using (cubic-bezier):</p>
+
+<div></div>
+<div class="sx"></div>
+<div class="ex"></div>
+<div class="dx"></div>
+<div class="yx"></div>  
+  
+</body>
+</html>

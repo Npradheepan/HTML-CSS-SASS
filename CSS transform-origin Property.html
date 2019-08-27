@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.wrapper {
+   position: relative;
+   height: 122px;
+   width: 150px;
+   margin: 40px auto;
+   border: 1px dotted black;
+}
+
+.wrapper > div {
+   padding: 52px;
+   position: absolute;
+   background-color: rgba(255, 50, 50, .6);
+}
+
+#box1 {
+   -ms-transform: rotate(45deg);       /* IE 9 */
+   -ms-transform-origin: top left;     /* IE 9 */
+   -webkit-transform: rotate(45deg);   /* Safari 3-8 */
+   -webkit-transform-origin: top left; /* Safari 3-8 */
+   transform: rotate(45deg);
+   transform-origin: top left;
+}
+
+#box2 {
+   -ms-transform: rotate(45deg);       /* IE 9 */
+   -ms-transform-origin: 50% 50%;      /* IE 9 */
+   -webkit-transform: rotate(45deg);   /* Safari 3-8 */
+   -webkit-transform-origin: 50% 50%;  /* Safari 3-8 */
+   transform: rotate(45deg);
+   transform-origin: 50% 50%;
+}
+</style>
+</head>
+<body>
+<h1>CSS transform-origin Property</h1>
+
+<h2>transform-origin: top left;</h2>
+<div class="wrapper">
+  <div id="box1">BOX 1</div>
+</div><br><br>
+
+<h2>transform-origin: 50% 50%;</h2>
+<div class="wrapper">
+  <div id="box2">BOX 2</div>
+</div>
+
+
+</body>
+</html>

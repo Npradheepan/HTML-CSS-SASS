@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table{width: 100%;}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+#table1 {
+    empty-cells: show;  
+}
+
+#table2 {
+    empty-cells: hide;  
+}
+</style>
+</head>
+<body>
+
+<h1>CSS empty-cells Property</h1>
+
+<h2>empty-cells: show (default):</h2>
+<table id="table1">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>theepan</th>
+  </tr>
+  <tr>
+    <td>Vishal</td>
+    <td>Choudhary</td>
+    <td>ntheepan</td>
+  </tr>
+  <tr>
+    <td>Tarush</td>
+    <td></td>
+    <td></td>
+    
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Rambow</td>
+    <td>ntheepan</td>
+  </tr>
+</table>
+
+<h2>empty-cells: hide:</h2>
+<table id="table2">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Vishal</td>
+    <td>Choudhary</td>
+  </tr>
+  <tr>
+    <td>Tarush</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Rambow</td>
+  </tr>
+</table>
+
+</body>
+</html>
