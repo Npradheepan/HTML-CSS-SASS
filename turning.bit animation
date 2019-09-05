@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>24.html</title>
+	<link rel="stylesheet" type="text/css" href="http://frons.googleapis.com/css? family=Oswald">
+</head>
+<style type="text/css">
+	* {
+		transition: all 0.8s ease;
+		font-family: 'oswald', sans-serif;
+	}
+	body{
+		background: #41a0f4;
+		margin: 0;
+		padding: 0;
+	}
+	.bodycard {
+		height: 350px;
+		width: 250px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		perspective: 1000px;
+
+	}
+	.bodycard .card {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform-style: preserve-3d;
+	}
+	.bodycard .card .frontcard {
+		background: #fff;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: rotateY(0deg);
+
+		
+	}
+	.bodycard .card .backcard {
+		background: #000;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: rotateY(180deg);
+	}
+	
+
+	.bodycard:hover .card {
+		transform: rotateY(180deg);
+
+	}
+</style>
+<body>
+	<div class="bodycard">
+		<div class="card">
+			<div class="frontcard">Front</div>
+			<div class="backcard">Back</div>
+			
+			
+		</div>
+	</div>
+
+</body>
+</html>
