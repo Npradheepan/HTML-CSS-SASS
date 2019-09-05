@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <title>Coffee Website</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1">
+            A FREE BOOTSTRAP 4 BUSINESS THEME<br>
+            <span class="h1--subline">BUSINESS CASUALE</span>
+        </h1>
+
+        <div class="main-nav-container">
+            <nav class="main-nav">
+                <ul class="nav-bar">
+                    <li class="main-nav--item"><a href="#home" class="main-nav" id="nav-link">Home</a></li>
+                    <li class="main-nav--item"><a href="#home" class="main-nav" id="nav-link">About</a></li>
+                    <li class="main-nav--item"><a href="#home" class="main-nav" id="nav-link">Products</a></li>
+                    <li class="main-nav--item"><a href="#home" class="main-nav" id="nav-link">Stores</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section section-intro" id="nav-link">
+        <div class="container">
+            <div class="intro-text">
+                <h2 class="h2">
+                    FRESH COFFEE<br>
+                    <span class="h2--subline">WORTH DRINKING</span>
+                </h2>
+                <p class="intro-body">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p>
+                <button class="intro-btn btn">Visit Us Today!</button>
+            </div>
+            <img src="./images/intro.jpg" alt="" class="intro-img">
+        </div>
+    </section>
+    
+    <section class="section section-promise">
+        <div class="container">
+            <div class="promise-text">
+                <h2 class="h2">
+                    OUR PROMISE
+                    <span class="h2--subline">TO YOU</span>
+                </h2>
+                <p class="promise-body">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="meta-info">Copyright © Your Website 2019</p>
+    </footer>
+
+</body>
+</html>
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css';
+
+/*========================================
+=            General Stylings            =
+========================================*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent url('./images/bg.jpg') center/cover;
+}
+
+/*----------  Fonts  ----------*/
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 
+.h6{
+    font-family: Raleway; 
+}
+/*----------  Headings  ----------*/
+.h1{
+    font-size: 2rem;
+    display: block;
+    color:#e6a756;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;       
+}
+.h1--subline{
+    color: white;
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;        
+}
+.h2{
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.h2--subline{
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+/*----------  Images  ----------*/
+img {
+    width: 70%;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+    float: inline-end;  
+}
+/*----------  Container  ----------*/
+.container {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+/*----------  Media Queries  ----------*/
+@media(max-width: 2050px){
+    .container{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        clear: both;
+        flex-wrap: wrap;
+    }
+    .intro-text{
+        width: 50%;
+       
+    }
+    .intro-img{
+        width: 50%;
+    }
+
+
+
+}
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px){
+
+}
+@media(min-width: 576px){
+
+}
+
+
+
+/*=====  End of General Stylings  ======*/
+
+
+
+/*==================================
+=            Navigation            =
+==================================*/
+.main-nav-container{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background:rgba(47,23,15,.9);
+    position: relative;
+    padding: 1.5rem;  
+}
+.main-nav{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-around;
+    list-style: none;   
+}
+.main-nav{
+    font: 1rem;
+    font-family: raleway;
+    font-weight: 400;
+    color: rgba(255,255,255,.9);
+    text-decoration: none;
+}
+.main-nav:hover{
+    color: rgba(255,255,255,.4);
+}
+.main-nav #nav-link:active{
+    color: #e6a756;
+}
+/*=====  End of Navigation  ======*/
+
+/*=============================
+=            Intro            =
+=============================*/
+.section {
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+}
+.intro-text{
+    width: 30%;
+    height: auto;
+    background: #fff;
+    text-align: center;
+    border: black;
+    position: absolute;
+    margin-top: 3%;
+    padding: 5%;
+    z-index: 1;
+    border-radius: 10px;
+    opacity: .7;   
+}
+.intro-body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+}
+.intro-btn{
+    background-color: #df902a;
+    border-color: #df902a;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.375rem 2.75rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;  
+    transform: translate(-50%, 100%);
+    position: absolute;  
+}
+
+/*=====  End of Intro  ======*/
+
+
+
+/*===============================
+=            Promise            =
+===============================*/
+
+
+
+/*=====  End of Promise  ======*/
+
+
+/*==============================
+=            Footer            =
+==============================*/
+
+
+
+/*=====  End of Footer  ======*/
+
+
+
+/*==============================
+=            Helper            =
+==============================*/
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+/*=====  End of Helper  ======*/
+
+
