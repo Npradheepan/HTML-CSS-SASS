@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img class="img" src="css/images/logo.black.svg">
+            <ul>
+                <li>Features</li>
+                <li>Team</li>
+                <li>Sign In</li>
+            </ul>
+        </div>
+
+        <!-- fist image block and h2-All your files -->
+        <img class="img-first" src="css/images/illustration-1.svg">
+        <div class="block-heading"> 
+            <h2 style="font-size:28px;">All your files in one secure<br> location, accessible anywhere.</h2>
+            <p>Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.</p>
+        </div>
+
+        <div class="search-holder-div">
+            <input class="search-holder" placeholder="Enter the Email...">
+            <button class="btn-holder">Get Started</button>
+        </div>
+
+        <div class="pic-mittle">
+            <img class="picture-mittle-img" src="css/images/illustration-2.svg">
+            <div class="picture-mittle-p">
+                <h2 style="font-size:32px;">Stay productive, wherever you are</h2>
+                <p> Never let location be an issue when accessing<br> your files. Fylo has you 
+                    covered for all of your file<br> storage needs.</p>
+                <p>Securely share files and folders with friends,<br> family and colleagues for 
+                    live collaboration. No <br>email attachments required!</p>
+            </div>
+            <a href="#" class="picture-mittle-btn">See how Fylo works &nbsp; <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div class="notice">
+            <img class="quotes" src="css/images/icon-quotes.svg"> <br>
+            <p class="notice-paragraph">Fylo stores your most important files in one secure location. 
+                Access them wherever you need, share and collaborate with friends, 
+                family, and co-workers.</p>
+            <img class="notice-image" src="css/images/avatar-testimonial.jpg">
+            <p class="name">Kyle Burton<br> class="ceo" & CEO, Huddle</p>
+        </div>
+    </div>
+
+    <div class="searching-option">
+        <div class="Get-early-access-today">
+            <h2 class="get-head"> Get early access today</h2>
+            <p class="get-para">It only takes a minute to sign up and our
+            free starter tier is extremely generous. 
+            If you have any questions, our support team
+            would be happy to help you.</p>
+        </div>
+        <div class="content-search-holder">
+            <input class="search-holder-second" placeholder="Email@Example.com">
+            <button class="btn-holder-second">Get Started Für Free</button>
+        </div>
+    </div>
+
+    <footer class="contacts">
+        <div class="footer">
+            <div class="footer-cover-first">
+                <img class="footer-img" src="css/images/logo.svg">
+                <p>
+                <img class="icon-phone" src="css/images/icon-phone.svg">
+                Phone: +1-543-123-4567
+                </p>
+                <p>
+                <img class="icon-mail" src="css/images/icon-email.svg" >
+                example@fylo.com
+                </p>
+            </div>
+            <div class="footer-cover-second">
+                <ul>
+                    <li>About Us</li>
+                    <li>Jobs</li>
+                    <li>Press</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-cover-third">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="footer-cover-fourth">
+                <ul class="icons">
+                    <li><a><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:700');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f9f8fe;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	position: relative;
+	box-sizing: border-box;	
+}
+
+.header img {
+	width: 12%;
+	margin: 5%;
+    box-sizing: border-box;
+}
+
+.header ul  {
+	position: absolute;
+	font-size: 24px;
+	right: 10%;
+	top: 25%;
+	text-align: right;
+}
+
+.header ul li {
+	display: inline;
+	margin-right: 25px;
+	cursor: pointer;
+}
+
+.img-first {
+	width: 40%;
+	height: auto;
+	float: right;
+}
+
+.block-heading {
+	width: 50%;
+	height: auto;
+	margin: 5% ;
+}
+
+.search-holder {
+	width: 30%;
+	height: 50px;
+	border-radius: 5px;
+	background: #fff;
+	border: #31285d solid 1px;
+	text-align: center;
+	text-align: left;
+	font-size: 20px;
+	color: #d0d0d0;
+	margin-left: 5%;
+}
+
+.btn-holder {
+	width: 15%;
+	height: 50px;
+	border-radius: 5px;
+	background: #2f65f9;
+	color: #fff;
+	font-size: 20px;
+	text-indent: 2px;
+	box-shadow: 6px 3px 7px dimgray;
+	border: none;
+	cursor: pointer;
+	margin-left: 2%;	
+}
+
+.pic-mittle {
+	width: 100%;
+	height: auto;
+	clear: both;	
+}
+
+.picture-mittle-img {
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-top: 10%;
+	box-sizing: border-box;	
+}
+
+.picture-mittle-p {
+	width: 60%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.picture-mittle-btn {
+	color: #3da08e;
+	margin-left: 5%;
+}
+
+.notice {
+	width: 30%;
+	height: auto;
+	margin-right:5% ;
+	background: #fff;
+	margin-left: 5%;
+	margin-top: 2%;	
+}
+
+.notice-image {
+	border-radius: 80px;
+	width: 20%;
+}
+
+.notice-paragraph {
+	font-size: 16px;
+}
+
+.searching-option { 
+	width: 100%;
+	height: auto;
+	background: #575989;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	color: #fff;
+}
+
+.get-head,
+.get-para {
+	color: #fff;
+	width: 100%;
+}
+.get-head {
+	font-size: 24px;	
+}
+
+.Get-early-access-today {
+	width: 30%;
+	padding: 1%;
+	margin-left: 5%;
+}
+
+.content-search-holder {
+	width: 50%;
+	height: auto;
+}
+
+.search-holder-second {
+	width: 50%;
+	height: 30px;
+	border-radius: 4px;	
+}
+
+.btn-holder-second {
+	width: 30%;
+	height: 40px;
+	border-radius: 4px;
+	background: #2f65f9;
+	color: #fff;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	margin: 1%;
+} 
+
+.content-search-holder {
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin: auto ;
+	margin-right: 0;
+	flex-direction: column;
+	text-align: left;
+	width: 40%;
+}
+
+.contacts {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	background: #07043b;
+	top: 0;	
+	padding: 5%;
+}
+
+.notice {
+	border-radius: 12px;
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+.footer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	color: #fff;
+}
+
+.footer-cover-first,
+.footer-cover-second, 
+.footer-cover-third {
+	position: relative;
+  	width: 30%;
+  	height: 20%;
+  	margin: 2%;
+  	text-align: left;
+	overflow:hidden;
+	line-height: 2;	
+}
+
+.footer-cover-fourth ul li,
+.footer-cover-second ul li, 
+.footer-cover-third ul li
+{
+	list-style: none;	
+}
+
+.footer-cover-fourth ul li a {
+	font-size: 30px;
+	margin: 0px 30px;
+	background: #141043;
+	border: 1px solid #fff;
+	display: block;
+	border-radius: 60px;
+	line-height: 50px;
+	width: 60%;
+	height: auto;
+	text-align: center;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;	
+}
+
+
+/* =================@media quarry===================== */
+@media only screen and (max-width: 667px){
+	.header {
+		width: 96%;
+		height: auto;
+		margin: auto;	
+	}
+
+	.header img {
+		width: 25%;
+		margin: 5% auto;
+		height: auto;
+		border-style: none;
+		box-sizing: border-box;
+	}
+
+	.header ul  {
+		width: 50%;	
+		position: absolute;
+		display: block;
+		top: 30%;
+		transform: translateY(-50%);
+		right: 80px;
+		box-sizing: border-box;
+		text-align: right;
+		font-size: 14px;
+		color: #31285d;
+	}
+
+	.header ul li {
+		display: inline;
+		line-height: 1.15;
+		padding-right: 2%;
+		cursor: pointer;
+	}
+
+	/*======= Fist image block and h2-All your files======= */
+	.wrapper {
+		background: #f9f8fe;
+	}
+
+	.img-first {
+		width: 94%;
+		height: 20%;
+		margin: 10% auto;
+	}
+
+	.block-heading {
+		width: 100%;
+		height: auto;
+		margin: 5% auto;
+		text-align: center;
+	}
+
+	.block-heading h2 {
+		font-size: 40px;
+		color: #0a0736;
+	}
+
+	.block-heading p {
+		font-size: 24px;
+		color: #141043;
+	} 
+
+	.search-holder-div {
+		margin: auto;
+		width: 80%;
+		text-align: center;
+		line-height: 5;
+	}
+
+	.search-holder {
+		width: 80%;
+		height: 50px;
+		border-radius: 5px;
+		background: #fff;
+		border: #31285d solid 1px;
+		text-align: center;
+		text-align: left;
+		font-size: 20px;
+		color: #d0d0d0;
+	}
+
+	.btn-holder {
+		width: 80%;
+		height: 50px;
+		border-radius: 5px;
+		background: #2f65f9;
+		color: #fff;
+		font-size: 20px;
+		text-indent: 2px;
+		box-shadow: 6px 3px 7px dimgray;
+		border: none;
+		cursor: pointer;	
+	}
+
+	.pic-mittle {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		margin: 25px auto;
+	}
+
+	.picture-mittle-img {
+		width: 80%;
+		height: auto;
+	}
+
+	.pic-mittle h2 {
+		color: #1d1b42;
+	}
+	.picture-mittle-p {
+		width: 70%;
+		text-align: left;
+		margin: auto;
+	}
+
+	.picture-mittle-p p {
+		color: #67637c;
+		font-size: 18px;
+	}
+
+	.picture-mittle-btn {
+		background: none;
+		text-decoration: underline;
+		color: #3da08e;
+	}
+
+	.notice {
+		width: 70%;
+		height: auto;
+		padding: 10%;
+		margin:10% auto;
+		background: #fff;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	.notice-paragraph {
+		font-size: 16px;
+	}
+
+	.notice-image {
+		border-radius: 60px;
+		width: 25%;
+	}
+
+	.name {
+		float: right;
+		padding-right: 2%;
+	}
+
+
+	/*===========NEXT=searching-option==========*/
+	.searching-option {
+		width: 100%;
+		height: auto;
+		margin: auto;
+		box-sizing: border-box;
+		text-align: center;
+		background: #575989;
+		padding: 2%;
+	}
+
+	.content-search-holder {
+		margin: auto;
+		width: 58%;
+		text-align: center;
+		line-height: 5;
+	}
+
+	.search-holder-second {
+		width: 65%;
+		height: 50px;
+		border-radius: 10px;
+		background: #fff;
+		text-align: center;
+	}
+
+	.btn-holder-second {
+		width: 65%;
+		height: 50px;
+		border-radius: 10px;
+		background: #2f65f9;
+		color: #fff;
+		font-size: 18px;
+		border: none;
+		cursor: pointer;	
+	}
+
+	.Get-early-access-today {
+		width: 40%;
+		padding: 1%;
+	}
+
+	.Get-early-access-todays p {
+		font-size: 21px;
+		color: #fff;
+		font-weight: 200;
+	}
+
+	.Get-early-access-today h2 {
+		font-size: 22px;
+		color: #fff;
+	}
+
+	/*======Next-Footer=============*/
+	
+	.contacts {
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		background: #07043b;
+		top: 0;	
+		padding: 2%;
+	}
+
+	.footer {
+		width: 96%;
+		height: auto;
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.footer-cover-first {
+		width: 60%;
+		padding: 2%;
+		margin: 2% auto;
+	}
+
+	.footer-cover-first p {
+		font-size: 12px;
+	}
+
+	.footer-img {
+		color: #ffffff;	
+	}
+
+	.icon-phone, .icon-mail {
+		color: #ffffff;
+		width: 20px;
+		font-size: 12px;
+	}
+
+	.footer-cover-second {
+		width: 50%;
+		margin: 2% auto;
+	}
+
+	.footer-cover-third {
+		width: 50%;
+		margin: 2% auto;
+	}
+	.footer-cover-second ul, 
+	.footer-cover-third ul {
+		padding-left: 0;
+	}
+	.footer-cover-second ul li,
+	.footer-cover-third ul li {
+		list-style: none;
+		font-size: 12px;
+		line-height: 2;		
+	}
+
+	.footer-cover-fourth  {
+		width: 50%;
+		margin:   auto;
+	}
+
+	.footer-cover-fourth ul {
+		padding-left: 0;
+		display: flex;
+		margin-top: 20%;	
+	}
+
+	.footer-cover-fourth ul li  {
+		list-style: none;		
+	}
+
+	.footer-cover-fourth ul li a {
+		font-size: 30px;
+		margin: 0px 30px;
+		background: #141043;
+		border: 1px solid #fff;
+		display: block;
+		border-radius: 60px;
+		line-height: 50px;
+		width: 60%;
+		height: auto;
+		text-align: center;
+	}
+
+	.footer-cover-fourth ul li a .fa {
+		position: relative;	
+	}
+
+	.icons {
+		flex-direction: column;	
+	}
+}
