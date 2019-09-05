@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="content">
+		<form>
+			<div class="form-row">
+			<label for="name">Name</label>
+			<input type="text" name="name">
+			</div>
+			<div class="form-row">
+			<label>Favorite color</label>
+			<input type="text" name="color">
+			</div>
+		</form>
+	</div>
+
+	<div class=" container">
+		<div class="mail-column">
+			<h2> main column</h2>
+			<p>leLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<p>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>	
+		</div>
+		<div class="sidebar-one">
+			<h3>Sidebar-one</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		</div>
+		<div class="sidebar-two">
+			<h3>Sidebar-one</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		</div>
+		
+	</div>
+	
+	<div class="call-out-containers">
+		<div class="call-out">
+			<h4>Feature 1</h4>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			
+		</div>
+		<div class="call-out">
+			<h4>Feature 2</h4>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			
+		</div>
+		<div class="call-out">
+			<h4>Feature 3</h4>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			
+		</div>
+		
+	</div>
+
+	<div class="fixed-size-container">
+		<div class="fixed-size">1</div>
+		<div class="fixed-size">2</div>
+		<div class="fixed-size">3</div>
+		<div class="fixed-size">4</div>
+		<div class="fixed-size">5</div>	
+	</div>
+	<div class="banner">
+		<div class="center-me">center Me Plz</div>
+	</div>
+
+	<div class="equal-height-container">
+		<div class="first">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		</div>
+		<div class="second">
+			<div class="second-a">A</div>
+			<div class="second-b">B</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
+body{
+	background: #fff;
+}
+.form-row {
+	padding: 10px 0;
+	display: flex;
+}1
+.form-row label {
+	padding-right: 10px;
+	flex: ;
+}
+.form-row input {
+	flex: 1;
+
+}
+
+.container {
+	max-width: 1200px;
+	background: #ccc;
+	margin:  40px auto 0 auto;
+	line-height: 1.25;
+	padding: 20px 50px;
+	display: flex;
+}
+.main-column {
+ 	flex: ;
+ 	order: 2
+}
+.sidebar-one {
+	flex: ;
+	order: 1;
+}
+.sidebar-two {
+	flex:  ;
+	order: 3;
+
+}
+.call-out-container {
+	max-width: 1200px;
+	margin: 40px auto 0 auto;
+	display: flex;
+	flex-direction: row;
+	/*align-items: stretch;*/
+	/*justify-content: space-between;*/
+	
+}
+.call-out {
+	padding: 20px;
+	margin-bottom: 20px;
+	flex: 1;
+	box-sizing: border-box;
+	/*width: 30%;*/
+	/*flex-basis: 30%;*/
+	/*width: 30%;*/
+	
+
+	
+
+}
+.call-out:nth-child(1){background-color: #42f4b9}
+.call-out:nth-child(2){background-color: #41f4e5}
+.call-out:nth-child(3){background-color: #f441d0}
+
+/*=======================*/
+
+.fixed-size-container {
+	max-width: 1400px;
+	margin: 40px auto 0 auto;
+	background-color: #fff;
+	padding: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/*flex-wrap: wrap;*/
+}
+.fixed-size {
+	width: 150px;
+	height: 100px;
+	background-color: #990b47;
+	color: #fff;
+	line-height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+/*==============center ME PLz===============*/
+.banner {
+	height: 400px;
+	max-width: 700px;
+	margin: 40px auto 40px auto;
+	background-color: #2a2a2a;
+	display: flex;
+}
+.center-me {
+	color: #fff;
+	font-size: 50px;
+	margin: auto;
+}
+/*================*/
+
+.equal-height-container {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+.first {
+	background-color:#fff;
+	padding: 20px; 
+	flex: 1;
+}
+.second {
+	background-color: #e8f441;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+.second-a {
+	background-color: #f46d41;
+	flex: 1;
+}
+.second-b {
+	background-color: #bb41f4;
+	flex: 1;
+}
+
+
+
+
+
+
+
