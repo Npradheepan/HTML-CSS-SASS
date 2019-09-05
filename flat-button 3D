@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></Metal-page></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="icon-bar" >
+            <div class="icon-box">
+
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="metal-but">
+                <ul class="navi-list">
+                    <li><button class="metal linear">MORE</button>
+                        <ul class="subnavi-list">
+                            <li><a><button class="metal linear">Company-1</button></a></li>
+                            <li><a><button class="metal linear">Company-2</button></a></li>
+                            <li><a><button class="metal linear">Company-3</button></a></li>
+                            <li><a><button class="metal linear">Company-4</button></a></li>
+                            <li><a><button class="metal linear">Company-5</button></a></li>
+                        </ul>
+                    </li>
+                    <li><a><button class="metal linear">NEW</button></a></li>
+                    <li><a><button class="metal linear">INFO</button></a></li>
+                    <li><a><button class="metal linear">CONTACT</button></a>
+                        <ul class="subnavi-list">
+                            <li><a><button class="metal linear">Local</button></a></li>
+                            <li><a><button class="metal linear">International</button></a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="sub-navi-button"><a><button class="metal linear">HOME</button></a>
+                        <ul class="subnavi-list">
+                            <li><a><button class="subnavi-item-btn metal linear">Cus-New</button></a></li>
+                            <li><a><button class="metal linear">Cus-Regular</button></a></li>
+                            <li><a><button class="metal linear">Cus-Old</button></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
+    body {
+  background: #000;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.icon-bar {
+  background: #000;
+  width: 20%;
+  margin-right: 15px;
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 60px;
+  -webkit-perspective: 100px;
+  perspective: 100px;
+}
+
+.icon-box {
+  color: #333333;
+  text-shadow: rgba(102, 102, 102, 0.5) 0 -1px 0, rgba(255, 255, 255, 0.6) 0 2px 1px;
+  background-color: #e6e6e6;
+  box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+  border-radius: 10px;
+  height: 56%;
+  width: 80%;
+  margin-top: 24%;
+  transition: color 0.2s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateX(45deg);
+  transform-style: preserve-3d;
+  transform: rotateX(75deg);
+}
+
+.menu-bar {
+  width: 80%;
+  box-shadow: 0 0 1rem 0 rgba(255, 255, 255, .15);;	
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .15);
+	backdrop-filter: blur(5px);
+  transition: color 0.2s;
+  text-align: center;
+}
+
+.menu-bar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.menu-bar ul li {
+  list-style: none;
+}
+
+.menu-bar ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+.menu-bar ul li ul li {
+  display: none;
+  margin-top: -100px;
+  flex-direction: column;
+  transform: 5ms;
+}
+
+.menu-bar ul li:hover ul li {
+  display: block;
+  margin-top: 10px;
+}
+
+.subnavi-list {
+  flex-direction: column;
+}
+.subnavi-list button {
+  margin: 0;
+}
+
+.subnavi-list {
+  color: #f91313;
+}
+
+/*=========================================*/
+button {
+  border: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+/* Metal ------------------------- */
+.metal {
+  position: relative;
+  margin: 20px auto;
+  outline: none;
+  font: bold 6em/2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  text-align: center;
+  color: #333333;
+  text-shadow: rgba(102, 102, 102, 0.5) 0 -1px 0, rgba(255, 255, 255, 0.6) 0 2px 1px;
+  background-color: #e6e6e6;
+  box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+  /* outer HL */
+  transition: color 0.2s;
+}
+
+/* Radial ------------------------- */
+.radial.metal {
+  width: 160px;
+  height: 160px;
+  line-height: 160px;
+  border-radius: 80px;
+  background-image: -webkit-radial-gradient(50% 0%, 8% 50%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), -webkit-radial-gradient(50% 100%, 12% 50%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%), -webkit-radial-gradient(0% 50%, 50% 7%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), -webkit-radial-gradient(100% 50%, 50% 5%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), -webkit-repeating-radial-gradient(50% 50%, 100% 100%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 3%, rgba(0, 0, 0, 0.1) 3.5%), -webkit-repeating-radial-gradient(50% 50%, 100% 100%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 6%, rgba(255, 255, 255, 0.1) 7.5%), -webkit-repeating-radial-gradient(50% 50%, 100% 100%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1.2%, rgba(255, 255, 255, 0.2) 2.2%), -webkit-radial-gradient(50% 50%, 200% 50%, #e6e6e6 5%, #d9d9d9 30%, #999999 100%);
+}
+
+.metal.radial:before, .metal.radial:after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  /* fake conical gradients */
+  background-image: -webkit-radial-gradient(50% 0%, 10% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%), -webkit-radial-gradient(50% 100%, 10% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%), -webkit-radial-gradient(0% 50%, 50% 10%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%), -webkit-radial-gradient(100% 50%, 50% 6%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.metal.radial:before {
+  transform: rotate(65deg);
+}
+
+.metal.radial:after {
+  transform: rotate(-65deg);
+}
+
+/* Linear ------------------------- */
+.metal.linear {
+  width: 160px;
+  font-size: 1em;
+  height: 50px;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1rem 0 rgba(36, 36, 36, 0.2);	
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  color: #07cb38;
+}
+
+/* Oval ------------------------- */
+.metal.linear.oval {
+  margin-top: 100px;
+  width: 70px;
+  height: 60px;
+  line-height: 60px !important;
+  border-radius: 50%;
+  font: italic bold 3em/50px Georgia, "Times New Roman", Times, serif;
+}
+
+/* active ------------------------- */
+.metal:active {
+  color: #fafafa;
+  text-shadow: rgba(0, 51, 102, 0.3) 0 -1px 0, #b3d9ff 0 2px 1px, #99ddff 0 0 5px, rgba(252, 252, 252, 0.6) 0 0 20px;
+  box-shadow: inset #fcfcfc 0 0px 0px 4px, inset rgba(255, 255, 255, 0.4) 0 -1px 5px 4px, inset rgba(255, 255, 255, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(241, 243, 245, 0.8) 0 0px 3px 2px, rgba(235, 238, 241, 0.25) 0 -5px 6px 4px, #e8f2fc 0 5px 6px 4px;
+  /* outer HL */
+}
+
+/*====================Searching-field===================*/
