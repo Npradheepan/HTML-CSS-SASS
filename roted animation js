@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slider-web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="jquery.easy_slides.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery.easy_slides.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="icon-bar" >
+           <img class="logo" src="images/penguin.png"> 
+        </div>
+        <div class="menu-bar">
+            
+            <ul class="menu">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Home</a></li>
+			</ul>
+           
+        </div>
+    </header>
+    <div class="container-slide">
+        <div class="slider slider_circle_10">
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div><a>Noch nicht fertig</a></div>
+            <div class="next_button"></div>
+            <div class="prev_button"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <script>
+                $(document).ready(function() {
+                    
+                    
+                    $('.slider_circle_10').EasySlides({
+                        'autoplay': true,
+                        'show': 13
+                    })
+                    
+                });
+        </script>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>
+
+body, html {
+  background: #7d7d7e;
+  font-family: sans-serif, tahoma;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.icon-bar {
+  width: 15%;
+  margin-right: 15px;
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 60px;
+  -webkit-perspective: 100px;
+  perspective: 100px;
+}
+
+.logo {
+  width: 40%;
+  height: 150px;
+}
+
+.menu-bar {
+  width: 80%;
+  background-color: rgba(233, 102, 135, 0.15);
+  box-shadow: 0 0 1rem 0 #fff;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: color 0.2s;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  margin: -75px 0;
+  padding: 0;
+  position: absolute;
+  top: 8%;
+  right: 40px;
+  padding-right: 20px;
+}
+
+.menu li {
+  clear: both;
+  display: block;
+  display: inline;
+}
+
+.menu a {
+  border: 1px solid white;
+  border-radius: 13px;
+  color: rgba(0, 0, 0, 0);
+  display: block;
+  float: right;
+  font-size: 13px;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  margin-top: 15px;
+  opacity: 0.6;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s;
+  padding-right: 10px;
+}
+
+.menu a:hover,
+.menu a.active {
+  width: 100px;
+  color: #777;
+  background: #fff;
+}
+
+.menu a.active {
+  opacity: 1;
+}
+
+.seach-btn, .search-field {
+  float: left;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.search-field {
+  margin-right: 50px;
+  text-align: center;
+  width: 240px;
+  border-radius: 5px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+.search-field:active {
+  border: 1px solid #220ed6;
+}
+
+.seach-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background: #222622;
+  border: 2px solid #02600c;
+  color: #02600c;
+}
+
+.seach-btn:hover {
+  background: #13771d;
+  color: #fff;
+}
+
+.search-p:hover {
+  color: #fff;
+}
+
+/*======================contaner slide===========================*/
+.container-slide {
+  width: 100%;
+  height: auto;
+  background: #454646;
+  margin: 36px auto;
+}
+
+/*********************************/
+.slider_circle_10 {
+  position: relative;
+  width: 70vw;
+  /* 640px; */
+  height: 53.2vw;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.slider_circle_10 > * {
+  transition: ease all 1s;
+}
+
+.slider_circle_10 > div,
+.slider_circle_10 .hidden {
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 1px;
+  height: 1px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.slider_circle_10 .active {
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -25%;
+  width: 50%;
+  height: 50%;
+  z-index: 10;
+}
+
+.slider_circle_10 .prev1,
+.slider_circle_10 .next1 {
+  opacity: 0.9;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -45%;
+  width: 25%;
+  height: 25%;
+  z-index: 9;
+}
+
+.slider_circle_10 .next1 {
+  margin-left: 15%;
+}
+
+.slider_circle_10 .prev2,
+.slider_circle_10 .next2 {
+  opacity: 0.7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50%;
+  width: 15%;
+  height: 15%;
+  z-index: 8;
+}
+
+.slider_circle_10 .next2 {
+  margin-left: 35%;
+}
+
+.slider_circle_10 .prev3,
+.slider_circle_10 .next3 {
+  opacity: 0.5;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -50%;
+  width: 7%;
+  height: 7%;
+  z-index: 7;
+}
+
+.slider_circle_10 .next3 {
+  margin-left: 43%;
+}
+
+.slider_circle_10 .prev4,
+.slider_circle_10 .next4 {
+  opacity: 0.3;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-left: -40%;
+  width: 3%;
+  height: 3%;
+  z-index: 6;
+}
+
+.slider_circle_10 .next4 {
+  margin-left: 37%;
+}
+
+.slider_circle_10 .prev5,
+.slider_circle_10 .next5 {
+  opacity: 0.1;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -15%;
+  width: 2%;
+  height: 2%;
+  z-index: 5;
+}
+
+.slider_circle_10 .next5 {
+  margin-left: 13%;
+}
+
+/****************-Box-Nummer-*****************/
+.nav_indicators {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  z-index: 50000;
+}
+
+.nav_indicators ul {
+  position: static;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav_indicators ul li {
+  position: static;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav_indicators ul li.active {
+  position: static;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  padding: 0;
+  background: #555;
+  color: #555;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.next_button,
+.prev_button {
+  position: absolute;
+  left: 110% !important;
+  top: 50% !important;
+  margin: -15px 0 0 -25px !important;
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid #f1f3f3 !important;
+  background: #85878c !important;
+  opacity: 0.5 !important;
+  z-index: 5000 !important;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+}
+
+.prev_button {
+  position: absolute;
+  left: -10% !important;
+}
+
+.next_button:hover,
+.prev_button:hover {
+  opacity: 1 !important;
+}
+
+.next_button:after,
+.prev_button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 1px;
+  margin-top: -10px;
+}
+
+.next_button:after {
+  border-left: 15px solid #000;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  margin-left: -5px;
+}
+
+.prev_button:after {
+  border-right: 15px solid #000;
+  border-left: 15px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  margin-left: -25px;
+}
+
+div.slider > div:not(.nav_indicators):not(.next_button):not(.prev_button) {
+  box-shadow: 0px 1px 3px #000;
+  background-color: rgba(233, 102, 135, 0.15);
+  box-shadow: 0 0 1rem 0 #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 50px;
+  border-radius: 30px;
+}
+
+/*===============================footer=======================*/
+.footer {
+  width: 100%;
+  height: 60px;
+  text-shadow: rgba(102, 102, 102, 0.5) 0 -1px 0, rgba(255, 255, 255, 0.6) 0 2px 1px;
+  background-color: #033968;
+  box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+  transition: color 0.2s;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
