@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Scroll Tween</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section class="section--1">
+      <h1>Scroll down to see the animations</h1>
+    </section>
+    <section class="section--2">
+      <h1 id="second-h1">
+        hello there I love code and music
+      </h1>
+      <div class="images">
+        <figure class="images--fig" id="first-fig"><img src="images/pic1.jpg" alt="" class="images--img" id="first-img"></figure>
+        <figure class="images--fig" id="second-fig"><img src="images/pic2.jpg" alt="" class="images--img"></figure>
+        <figure class="images--fig" id="third-fig"><img src="images/pic3.jpg" alt="" class="images--img"></figure>
+        <figure class="images--fig" id="fourth-fig"><img src="images/pic4.jpg" alt="" class="images--img" id="fourth-img"></figure>
+        <figure class="images--fig" id="fifth-fig"><img src="images/pic5.jpg" alt="" class="images--img"></figure>
+        <figure class="images--fig" id="sixth-fig">
+          <img src="images/pic8.jpg" alt="" class="images--img">
+        </figure>
+      </div>
+    </section>
+    <section class="section--1"></section>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js'></script>
+  <script src="script.js"></script>
+</body>
+</html>
