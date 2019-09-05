@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container" >
+		<div class="iterm one">Flex iterm 1</div>
+		<div class="iterm two">Flex iterm 2</div>
+		<div class="iterm three">Flex iterm 3</div>
+		<!-- <div class="iterm four">Flex iterm 4</div>
+		<div class="iterm five">>Flex iterm 5</div> -->
+	</div>
+	<!-- ======================== -->
+	
+
+
+</body>
+</html>
+body{
+    background: #262626;
+}
+
+.container {
+	background: #42f4e8;
+	height: 25vh;
+	width: 90vw;
+	padding: 0.5em;
+	margin: 25vh auto 0;
+
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	/*align-items: flex-start;
+	align-items: flex-end;
+	align-items:  center;
+	*/
+}
+/*flex-grow: ;
+  flex-shrink: ;
+  flex-basis: ;
+  flex: ;*/
+.iterm {
+	background: #f44141;
+	margin: 0.5em;
+}
+
+.one {
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 250px;
+}
+.two {
+	/*flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 250px;*/
+	flex: 1 1 250px;
+	/*align-self: flex-start;
+	align-self: flex-end;*/
+	align-self: center;
+	/*=order: 1;*/
+}
+
+.three {
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 250px;
+}
+/*
+.four {
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 250px; 
+}
+}
+.five {
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 250px;
+}*/
+
+
