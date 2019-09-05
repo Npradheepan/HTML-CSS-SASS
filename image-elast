@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+body {
+  background: #000;
+}
+
+.container {
+	width: 100%;
+  max-width: 800px;
+  background: #000;
+  overflow: hidden;
+  margin: 25px auto;
+  position: relative;
+  height: 600px;
+  &:hover {
+    .background {
+      transform: scale(0.8) translate(-50%, -50%);
+    }
+    .baby {
+      transform: scale(1.4);
+    }
+  }
+}
+
+.background {
+  top: 50%;
+  left: 50%;
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transform-origin: top left;
+  transition: transform 2s;
+}
+
+.baby {
+  top: 22.5%; 
+  left: 37.8%;
+  z-index: 1;
+  position: absolute;
+  transform: scale(1);
+  transition: transform 2s;
+}
+	
+</style>
+<body>
+	<div class="container">
+  <div class="baby"><img src="http://mattsoria.com/images/vertigo-zoom-baby.png" alt="baby" /></div>
+  <div class="background"><img src="http://mattsoria.com/images/vertigo-zoom-bg2.jpg" alt="" /></div>
+</div>
+
+</body>
+</html>
