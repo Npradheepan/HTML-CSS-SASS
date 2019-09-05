@@ -1,0 +1,634 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+    <div class="first-banner">
+        <div class="cover-banner"> 
+            <h1 class="h2-banner">Stylish Portfolio </h1>
+            <p class="p-banner">A Free Bootstrap Theme by Start Bootstrap</p>
+            <button class="btn-banner">Fint out More</button>
+        </div>
+    </div>
+    <!--=============================2====================================-->
+    <div class="second-banner">
+        <div class="second-banner-cover">
+            <h2 class="second-banner-cover-h">Stylish Portfolio is the perfect theme for your next project!</h2>
+            <p class="second-banner-cover-p">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at <a href="#"> Unsplash!</a> </p>
+            <button class="btn-second-banner">What We Offer</button>
+        </div>
+    </div>
+    <!--=============================3===================================-->
+    <div class="third-banner">
+        <div class="third-bannera-cover">
+            <div class="Services">
+                <p class="service-para">Services</p>
+                <h2 class="service-h2">What We Offer</h2>
+            </div>
+            <div class="offer-icons">
+                <div class="icons-part">
+                    <div class="content-icon1"> 
+                        <div class="offer-icon1">
+                            <i class="fa fa-mobile" aria-hidden="true" font-size="24px"></i>
+                        </div>
+                        <div class="icon-h3-pars">
+                            <h3 class="icon-heading">Responsive</h3>
+                            <p class="icon-paras">Looks great on any screen size!</p>
+                        </div>
+                    </div>
+                    <div class="content-icon2">
+                        <div class="offer-icon2">
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-h3-pars">
+                            <h3 class="icon-heading">Redesigned</h3>
+                            <p class="icon-paras">Freshly redesigned for Bootstrap 4.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons-part">
+                    <div class="content-icon3">
+                        <div class="offer-icon3">
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-h3-pars">
+                            <h3 class="icon-heading">Favorited</h3>
+                            <p class="icon-paras">Millions of users Start Bootstrap!</p>
+                        </div>
+                    </div>
+                    <div class="content-icon4">
+                        <div class="offer-icon4">
+                            <i class="fa fa-headphones" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-h3-pars">
+                            <h3 class="icon-heading">Question</h3>
+                            <p class="icon-paras">I mustache you a question...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================4==================================-->
+    <div class="well-banner">
+        <br><div class="well-heading">
+            <h2 class="Welcome-h2">Welcome to your <br>next website!</h2>
+            <button class="download-but">Download Now</button>
+        </div>
+    </div>
+    <!---==========================5============================-->
+    <div class="project-banner">
+        <div class="letter-cover">
+            <p class="letter-cover-p">Portfolio</p>
+            <h1 class="letter-cover-h" >Recent Projects</h1>
+        </div>
+        <div class="content-animation">
+            
+            <div class="first-div-a">
+                <h4 class="div-heading">Stationary</h4>
+                <p class="div-paras">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+            </div>
+            <div class="first-div-b">
+                <h4 class="div-heading">Ice Cream</h4>
+                <p class="div-paras">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+            </div>
+            <div class="second-div-a">
+                <h4 class="div-heading">Workspace</h4>
+                <p class="div-paras">A yellow workspace with some scissors, pencils, and other objects.</p>
+            </div>
+            <div class="second-div-b">
+                <h4 class="div-heading">Strawberries</h4>
+                <p class="div-paras">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+            </div>
+        </div>
+    </div>
+    <!--=====================6===============================-->
+    <div class="button-content">
+        <br>
+        <div class="button-cover">
+            <p class="btn-blow">The buttons below are impossible to resist...</p>
+            <span><button class="btn btn-click-me">Click Me</button></span>
+            <span><button class="btn btn-look-me">Look at Me</button></span>
+        </div>
+    </div>
+    <!--======================7================================-->
+    <div class="goole-div">
+        <iframe class="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.9525389169544!2d7.1756294164347985!3d51.183097679583256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b92a71deb7b041%3A0x6b96014203a85db9!2sR%C3%BCcker+Immobilien+AG!5e0!3m2!1sen!2sde!4v1546602816316" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <!--=======================8==============================-->
+    <div class="footer">
+        <div class="footer-cover">
+            <i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>
+            <i id= "twitter" class="fa fa-twitter" aria-hidden="true"></i>
+            <i id="githup" class="fa fa-github" aria-hidden="true"></i>
+            <p class="footer-paras">Copyright © Your Website 2019</p>
+        </div>
+    </div>
+    
+    
+    <!--===========================================================-->
+    
+</body>
+</html>
+
+
+* body, html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,h2 {
+    font-family: Source Sans Pro; 
+    font-weight: 900;
+}
+
+
+body{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.first-banner {
+    width: 100%;
+    height: 1340px;
+    background-image: url("images/bg-masthead.jpg");
+    background-size: cover;
+    background-position: left top;
+}
+
+.cover-banner{
+    width: 70%;
+    margin: auto;
+    top: 20%;
+    transition: (50px 50px);
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    
+}
+.h2-banner{
+    font-size: 7rem;
+    font-weight: 900;
+    white-space: pre;
+    height: 100%;
+    box-sizing: border-box;
+    margin:auto;   
+}
+
+.p-banner{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 0px; 
+    padding-bottom: 30px;        
+}
+a{
+    font-family: 'Source Sans Pro';
+    
+}
+
+.btn-banner{
+    width: 200px;
+    height: 74px;
+    background: #1d809f !important;
+    border-color: #1d809f !important;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+    color: #fff !important;
+    cursor: pointer;
+    padding: 20px,40px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+/*====================second-banner================*/
+.second-banner{
+    width: 98%;
+    height:330px;
+    background: #ffffff;
+    margin: 10px;   
+    box-sizing: border-box;
+}
+
+.second-banner-cover{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin:7% auto;
+    line-height: 10px;
+}
+.second-banner-cover-h {
+    font-size: 32px;    
+}
+.second-banner-cover-p{
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom:50px;
+    letter-spacing: 0.900px; 
+   
+}
+.btn-second-banner{
+    width: 180px;
+    height: 68px;
+    background: #343a40;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-display: 700;
+    border-radius: 6px;
+    margin: auto;
+}
+/*====================second-banner================*/
+.third-banner {
+    width:  100%;
+    height: auto;
+    background: #1d809f;
+    box-sizing: border-box;   
+}
+
+.third-bannera-cover {
+    height: auto;
+    margin: auto;
+    position: relative;
+    padding:100px 20px; 
+    display: inline;
+}
+
+.Services {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box; 
+    padding-top: 4%;  
+    
+    
+}
+
+.service-para {
+    color: #ecb807;
+    font-size: 16px;
+    font-weight: 900;
+    
+}
+.service-h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    font-weight: 700;   
+}
+.offer-icons {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.content-icon1,
+.content-icon2,
+.content-icon3,
+.content-icon4 {
+    box-sizing: border-box;
+    height: auto;
+    text-align: center;
+    margin: auto;
+
+}
+.offer-icon1 {
+    width: 5%;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50px;
+    
+}
+.offer-icon1,
+.offer-icon2,
+.offer-icon3,
+.offer-icon4 {
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+    background: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    margin-left: 28%;
+    font-size: 60px;
+}
+.fa {
+    color:#1d809f;
+    text-align: center;
+    margin-top: 20%;   
+}
+.icon-h3-pars{
+    width: 210px; 
+    font-weight: 700; 
+    text-align: center; 
+}
+.icon-heading {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;   
+}
+.icon-paras {
+    font-size: 14px;
+    color: #b8d7de;   
+}
+.icons-part{
+display: flex;
+} 
+/*===============media Quary=================*/
+/* @media(min-width: 990px) {
+    .third-bannera-cover{
+        width:100%;
+        height: auto;
+        box-sizing: border-box; 
+    }
+
+    .offer-icons{
+        width: 100%;
+        height: auto;	
+    }	
+} */
+/*=================4===============*/
+.well-banner {
+    width: 100%;
+    height: 730px;
+    background-image: url("images/bg-callout.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.well-heading {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 7% auto;
+     
+}
+.Welcome-h2 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 42.483px;
+       
+}
+
+.download-but {
+    width: 195px;
+    height: 68px;
+    background: #1d809f;
+    color: #ffffff;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+/*=====================5===========*/
+.project-banner {
+    width: 100%;
+    height: auto;
+    background: #ffffff; 
+    margin-top: 5%;
+    margin-bottom: 4%;  
+}
+
+.content-animation {
+    width: 62%;
+    height: 740px;
+    box-sizing: border-box;
+    margin: 3% auto;
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.first-div-a,
+.first-div-b,
+.second-div-a,
+.second-div-b {
+    width: 30%;
+    height: 370px;
+    background-image: url("images/portfolio-1.jpg") ;
+    background-size: cover;
+    background-position: center, center;
+    padding-left: 5%;
+    color: #ffffff;
+    text-align: left;
+}
+.letter-cover{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 2% auto;
+    line-height: 5px;
+    
+}
+.letter-cover-p{
+    color: #ecb807;
+    font-size: 1.2rem;
+    font-weight: 900;
+    
+}
+.letter-cover-h{
+    font-size: 3rem;
+}
+
+.div-heading {
+    font-size: 16px;
+    margin-top: 42%;   
+}
+.div-paras{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family:Source Sans Pro;  
+}
+.first-div-b {
+    background-image: url("images/portfolio-2.jpg") ;
+    
+}
+.second-div-a{
+    background-image: url("images/portfolio-3.jpg") ;
+}
+.second-div-b {
+    background-image: url("images/portfolio-4.jpg") ;
+}
+
+/*===============6===============*/
+.button-content {
+    width: 100%;
+    height: 368px;
+    background: #1d809f; 
+       
+}
+
+.button-cover {
+    width: 60%;
+    height: auto;
+    margin: 3% auto;
+    text-align: center;  
+     padding: 12px;
+}
+
+.btn {
+    width: 148px;
+    height: 68px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 6px;
+    margin: 12px; 
+    font-weight: 400;
+}
+
+ .btn .btn-click-me {
+    background: #cddddd;
+}
+
+.btn-blow{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    box-sizing: border-box;
+    letter-spacing:2px;
+    padding: 2px;
+}
+
+.btn-look-me {
+    background: #222224;
+    color: #ffffff;
+    width: 165px;
+}
+
+/*===================7============== */
+.google-div{
+    width: 100%;
+    height: 480px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+/*=======================8==============*/
+.footer {
+    width: 100%;
+    box-sizing: border-box; 
+    height: 205px;  
+}
+.footer-cover {
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+
+#facebook, #twitter, #githup {
+    font-size: 40px;
+    border: 1px white;   
+    justify-self: auto; 
+    width: 60px;
+    height: 50px;
+    border-radius: 80px;
+    background: #1d809f;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    padding-top:10px; 
+    
+    
+}
+
+.footer-paras{
+    font-size: 12px;
+    color: #7e8689;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+/*===============================================*/
+/*===============================================*/
+@media screen and (max-width: 1260px){
+    .h2-banner{
+        font-size: 5rem; 
+    }
+    .p-banner{
+        font-size: 24px;
+         padding-bottom: 15px;        
+    }
+}
+@media screen and (max-width: 980px){
+    .first-banner {
+        width:100%;
+        height: auto;
+        opacity: .2;
+    }
+    .h2-banner{
+        font-size: 3rem; 
+    }
+    .p-banner{
+        font-size: 14px;
+         padding-bottom: 10px;        
+    }
+    .btn-banner{
+        width: 120px;
+        height: 60px;
+    }
+    .third-bannera-cover {
+        width: 80%;
+        box-sizing: border-box;   
+    }
+
+    .second-banner-cover{
+        width: 70%;
+        font-weight: 400;
+        margin: auto;
+        line-height: 25px;
+    }
+    .second-banner-cover{
+        font-size: 28px;
+    }
+    .offer-icons {
+        width: 100%;   
+    }
+    .icons-part{
+        display: block;
+    }
+    .third-banner{
+        height: auto;
+    }
+    .first-div-a,
+    .first-div-b,
+    .second-div-a,
+    .second-div-b {
+        width: 80%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .project-banner{
+        width: 100%;
+        height: 1320px;
+    }
+}
+@media screen and (max-width: 1260px){
+    
+}
