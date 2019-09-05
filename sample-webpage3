@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="site-wrapper">
+        <div class="div-top">
+            <header class="header">
+                <img class="logo-image" src="css/images/logo.svg">
+            <ul>
+                <li class="sign-in"><a>Sign In </a></li>
+                    <li class="sign-up"><a>Sign Up</a></li>
+                </ul>
+            </header>
+            <div class="div-top-content">
+                <img class="img-right" src="css/images/illustration-hero.svg">
+                <div class="div-top-conttent-left">
+                    <h1 > All Your Files In One Secure <br>Location, Accessible Anywhere.
+                            Get Started</h1>
+                    <button class="but-get-started">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <div class="div-mit">
+            <h1 class="h2-prodective"> Stay Productive, Wherever You Are</h1>
+            <div class="mit-pic">
+                <img class="image-center" src="css/images/illustration-features.svg" >
+                <div class="para-container">
+                    <div class="para-content para-1">
+                        <h3>Real-time collaboration</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+                        gestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
+                        eo, ac accumsan magna tellus sed leo.</p>
+                    </div>
+                    <div class="para-content para-2">
+                        <h3>All platforms, all devices, all your files</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+                        egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
+                        leo, ac accumsan magna tellus sed leo.</p>
+                    </div>
+                    <div class="para-content para-3">
+                        <h3>Automatic backups</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+                        egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
+                        leo, ac accumsan magna tellus sed leo.</p>
+                    </div>
+                    <div class="para-content para-4">
+                        <h3>Security you can trust</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+                        egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
+                        leo, ac accumsan magna tellus sed leo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="get-early">
+                <h2>Get Early Access Today</h2>
+                <p>It only takes a minute to sign up and our free starter tier is extremely 
+                    generous. If you have<br> any questions, our support team would be happy to 
+                    help you.</p>
+                <input class="email" placeholder="email@example.com">
+                <button class="btn-search" type="button">Join</button>
+            </div>
+        </div>
+        <div class="div-down">
+            <div class="footer-container">
+                <div class=" column">
+                    <div class="column-right ">
+                        <img class="footer-img" src="css/images/logo.svg">
+                        <div class="contact">
+                            <p><img class="icon-phone" src="css/images/icon-phone.svg">&nbsp;&nbsp;+1-543-123-4567</p>
+                            <p><img class="icon-mail" src="css/images/icon-email.svg">&nbsp;&nbsp;&nbsp;&nbsp; exaple@fylo.com</p>
+                        </div>
+                    </div>
+                    <div class="vertical"></div>
+                    <div class="vertical"></div>
+                    <div class="column-mit">
+                        <div class="app">
+                            <h5>Fylo</h5> 
+                            <ul>
+                                <li>Desktop App</li>
+                                <li>Mobile App</li>
+                                <li>Pricing</li>
+                                <li>Feature</li>
+                            </ul>
+                        </div>
+                        <div class="company">
+                            <h5>Company</h5> 
+                            <ul>
+                                <li>About Us</li>
+                                <li>Jobs</li>
+                                <li>Press</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                        <div class="support">
+                            <h5>Support</h5> 
+                            <ul>
+                                <li>Contact Us</li>
+                                <li>Terms</li>
+                                <li>Privacy</li>
+                            </ul>
+                        </div>
+                    </div>	
+                    <div class="vertical"></div>
+                    <div class="column-left">
+                        <p>Receive updates from us, including tips and<br>tricks on how to improve your workflow.</p>
+                        <input class="search-option" placeholder=""><br>
+                        <button class="btn-search" type="button">Joint</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:700');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.site-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.div-top {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    
+    
+}
+.div-down {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    
+    
+}
+
+.div-top  {
+    /* background: #1aa5ea; */
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.div-mit  {
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.div-down {
+    background: #07043b;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10%;
+}
+
+.div-mit::after {
+    content: '';
+    position: absolute;
+    border-bottom: 85px solid #ffffff;
+    border-right: 99.1vw solid transparent;
+    top: -100px;
+    box-sizing: border-box;
+   
+    
+}
+.div-mit::before {
+    content: '';
+    position: absolute;
+    border-top: 100px solid #ffffff;
+    border-left: 99.1vw solid transparent;
+    bottom: -100px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+
+.div-top {
+    background: -webkit-gradient(linear, left top, right top, from(#261f7f),to(#9b7fe2));
+    background: linear-gradient(to right, #261f7f,#9b7fe2);
+}
+/*================================*/
+.header{
+     width: 100%;
+     height: 150px;
+     position: relative;
+     box-sizing: border-box;
+}
+.logo-image {
+    width: 160px;
+    height: auto;
+    margin-top: 52px;
+    margin-left: 80px;
+    border-style: none;
+    box-sizing: border-box;
+}
+.header ul {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 80px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header ul li {
+  display: inline; 
+  line-height: 1.15;
+  
+}
+
+.header ul li a  {
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 15px;
+   background-color: transparent;
+   cursor: pointer;
+   
+}
+
+.sign-up {
+    padding: 8px 35px 8px 35px;
+    background: #06d79d;
+    border-radius: 4px;
+}
+
+.sign-in {
+    padding-right: 30px;
+}
+
+.div-top-content {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    box-sizing: border-box;
+}
+ 
+.div-top-conttent-left {
+    width: 40%;
+    height: 200px;
+    /* float: left; */
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+.div-top-conttent-left h1 {
+    color: white;
+    font-size: 2.2em;
+}
+
+.img-right {
+    width: 25%;
+    height: auto;
+    /* float: right; */
+    margin-right: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.but-get-started {
+    background: #06d79d;
+    width: 24%;
+    color:white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 30%;
+    
+}
+/*=============mittel-Container================*/
+
+.h2-prodective  {
+    text-align:  center;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 230px;
+    color: #00001f;
+}
+
+.mit-pic {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    padding-top: 100px;
+}
+
+.image-center {
+    width: 30%;
+    margin: 3%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    max-height: 350px;
+    min-width: 25%;
+}
+
+.para-container {
+    width: 60%;
+    height: auto;
+    float: right;
+    box-sizing: border-box;
+}
+
+.para-content  {
+    width: 30%;
+    height: auto;
+    box-sizing: border-box; 
+    padding: 1%;
+    color: #868686;
+    
+}
+.para-content h3 {
+    color: #07052c;
+}
+
+.para-1, .para-3 {
+        float: right;
+
+}
+
+.get-early {
+    width: 80%;
+    clear: both;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15%;
+    color: #2f2c59;
+    line-height: 2;
+    padding-bottom: 5%;
+}
+
+.get-early p {
+    color: #4d479f;
+}
+.btn-search  {
+    background: #06d79d;
+    border: none;
+    padding: 8px 60px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.email {
+    width: 20%;
+    padding: 5px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+/*=====================Footer==================*/
+
+.column {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.column-right,
+.column-left,
+.column-mit {
+    width: 20%;
+    text-align: left;
+    color: #ffffff;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+}
+
+.column-left {
+ width: 30%;
+ text-align: right;
+}
+
+.column-mit {
+    width: 50%;
+    align-items: flex-start;
+    display: flex;
+  	justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-right-style: solid;
+    border-left-style: solid;
+    line-height: 2;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.app, .company, .support {
+    overflow: hidden;
+    
+}
+
+.app ul li, .company ul li, .support ul li {
+    list-style: none;   
+}
+.app ul , .company ul, .support ul {
+    text-align: left;
+} 
+
+.app h5, .company h5,.support h5 {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+.app h5 {
+    padding-right: 10px
+}
+.search-option {
+    width: 62%;
+    border-radius: 3px;
+}
+.company h5 {
+    padding-left: 35px;
+}
+.support h5 {
+    padding-left: 10px;
+}
+    
+/*====================@media=================*/
+@media only screen and (max-width: 649px){ 
+    body {
+        min-width: 649px;
+    }
+}
+
+@media only screen and (max-width: 667px){ 
+    .div-top-content{
+        width: 100%;
+        height: 60vh;
+    }
+    .img-right {
+        width: 80%;
+        
+    }
+
+    .div-top-conttent-left {
+        width: 90%;
+        text-align: center;
+        flex-direction:flex-end; 
+    }
+
+    .image-center {
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+
+    .para-content {
+        width: 100%;
+        text-align: left;
+    }
+
+    .para-container {
+        float: left;
+        width: 100%;
+    }
+
+    .get-early p {
+        width: 90%;
+        text-align: center;
+        line-height: 1;
+    }
+   .email  {
+        width: 80%;
+    }
+
+    .btn-search {
+        width: 70%;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .footer-container {
+        width: 100%;
+    }
+    
+    .column {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .column-right {
+        width: 80%;
+        text-align: left;
+    }
+
+    .column-mit {
+        width: 100%;
+        border-right-style: none;
+        border-left-style: none;
+    }
+    
+    .column-left {
+        width: 100%;
+        text-align: center;
+    } 
+    
+} 
+
+@media only screen and (min-width: 649px){
+    .div-top-conttent-left {
+        float: left;
+    }
+    
+    .img-right {
+        float: right;
+    }
+}
+
+
+/*======================
+        Helper
+========================*/
