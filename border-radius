@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#example1 {
+  border: 2px solid red;
+  padding: 10px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+#example2 {
+  border: 2px solid red;
+  padding: 10px;
+  border-bottom-right-radius: 50px 50px;
+  border-top-left-radius: 50px 50px;
+}
+</style>
+</head>
+<body>
+
+
+<div id="example1">
+  
+</div>
+
+
+<div id="example2">
+  
+
+</body>
+</html>
