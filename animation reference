@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  -webkit-animation: mymove 3s; 
+  -webkit-animation-fill-mode: both; 
+  animation: mymove 3s;
+  animation-fill-mode: both;/*forwardds,backwards,inherit,none,initial*/
+  animation-iteration-count: infinite; /*cound with numbers*/
+  /*animation-duration:--s;
+  animation-direction:alternative;
+  animation-play-state:paused;
+  animation-timing-function: linear;/you can see the properties/
+  */
+}
+
+@keyframes mymove {
+  from {top: 0px;}                          /* direction from right to left*/
+  to {top: 200px; background-color: blue;}
+}
+</style>
+
+
+<body>
+<h1>The animation-fill-mode Property</h1>
+
+<div></div>
+
+</body>
+</html>
