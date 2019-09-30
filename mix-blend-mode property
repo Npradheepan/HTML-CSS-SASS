@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+    background-color: red;
+    padding: 15px;
+}
+
+.box > img {
+    width: 300px;
+    height: 280px;
+    mix-blend-mode: luminosity;
+}
+</style>
+</head>
+<body>
+<h1>CSS mix-blend-mode Property</h1>
+
+<div class="box">
+   <img src="/images/air_ballon.jpg" alt="Air ballon">
+</div>
+
+<p><i>Note:</i> The mix-blend-mode property is not supported in Internet Explorer or Edge.</p>
+
+</body>
+</html>
