@@ -1,0 +1,15 @@
+<html>
+<body>
+<p class="ex1">"Dort habe ich ein ganzes Volk gesehen, das um seine Existenz kämpft", sagte er den Zuhörern in New York. Danach reiste er nach Mosambik, </p>
+
+</body>
+
+<style>
+.ex {
+   background: plum;
+   padding: 12px;
+   text-indent: 100px;
+}
+</style>
+</body>
+</html>
