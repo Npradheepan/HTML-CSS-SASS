@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+</head>
+<style>
+
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+	box-sizing: border-box;
+    position: fixed;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+nav ul {
+    float: right;
+    
+}
+
+nav a { 
+    margin: 0;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(228, 121, 6);
+    height: 60px;
+	line-height: 50px;
+	padding: 0 20px;
+	text-decoration: none;
+	display: block;
+}
+
+.logo {
+    width:80px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    margin: 16px 48px;
+    z-index:9;
+    position:sticky;
+    
+}
+
+.black {
+    background: black;
+}
+section {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 10px;
+}
+.image {
+    width: 100%;
+    height: 800px;
+    top: 0;
+}
+
+.menu-toggle{
+	color: rgb(227, 31, 31);
+	float: right;
+	line-height: 50px;
+	font-size: 34px;
+	cursor: pointer;
+    display: none;
+    z-index: 9;
+}
+.black {
+    background: black;
+    z-index: 0;
+    
+}
+/*=============================================
+=            @Quary-media                     =
+=============================================*/
+@media(max-width: 980px) {
+    nav ul li {
+        padding: 12px 24px;
+    }    
+    header  {
+        position: fixed;
+        width: 100%;
+    }
+ }
+ @media(max-width: 890px) {
+    nav ul li {
+        padding: 5px 8px;
+    }   
+
+    header  {
+        position: fixed;
+        width: 100%;
+    }       
+ }
+@media(max-width: 720px){
+    nav ul li {
+        padding: 2px 5px;
+       }  
+
+    header  {
+        position: fixed;
+        width: 100%;   
+    }       
+}
+
+@media(max-width: 680px) {
+    .menu-toggle{
+        display: block;
+        height: 40px;
+        width: 20px;
+        padding: 10px;    
+    }
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 1px 3px;
+    }          
+     
+	header  nav {
+		position: absolute;
+		width: 100%;
+		height:calc(100vh -50px);
+		top:70px;
+		left: -100%;
+        transition: 0.5s;  
+    }
+    
+	header  nav.active {
+		left: 0;
+    }
+    
+	header nav ul {
+		display: block;
+		text-align: center;
+    } 
+    
+    .image {
+        top: 0;
+        left: 0;     
+     } 
+}
+@media(max-width: 570px){
+    nav ul li {
+        padding: 1px 0;
+       }  
+
+    header  {
+        position: fixed;
+        width: 100%;   
+    }       
+}
+</style>
+<!--
+    //===============================//
+              End of style
+    //===============================//
+  -->
+
+<body>
+    <header>
+        <img class ="logo" src="images/logo6.jpg" alt="logo" >
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+            <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i>
+    </header>   
+    <section>
+        <img class ="image" src="images/image1.jpg" alt="">
+    </section>
+    <section>
+        <img class ="image" src="images/image2.jpg" alt="">
+    </section>
+    <section>
+        <img class ="image" src="images/image3.jpg" alt="">
+    </section>
+    <section>
+        <img class ="image" src="images/image5.jpg" alt="">
+    </section>
+</body>
+<script type="text/javascript">
+$(window).on("scroll",function(){
+    if($(window).scrollTop()){
+        $('nav').addClass('black');
+    }
+    else{
+        $('nav').removeClass('black');
+    }
+})
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('.menu-toggle').click(function(){
+    $('nav').toggleClass('active');
+      })
+    })
+</script>
+</html>
