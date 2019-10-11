@@ -1,0 +1,88 @@
+//_______________HTML_________________/
+<body>
+    <header>
+        <nav class="black">
+            <img class ="logo" src="images/gk.jpg" alt="logo" >
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>   
+</body>
+//________________Html________________//
+//_______________style_______________//
+<style>
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5));
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+nav ul {
+    float: right;
+}
+
+nav a { 
+    margin: 0;
+    padding-right: 42px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(228, 121, 6);
+}
+
+.logo {
+    width: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
+.black {
+    background: black;
+}
+section {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 10px;
+}
+.image {
+    width: 100%;
+    height: 800px;
+}
+</style>
+//____________style End ____________________//
+//___________________-<script>______________//
+<script type="text/javascript">
+$(window).on("scroll",function(){
+    if($(window).scrollTop()){
+        $('nav').addClass('black');
+    }
+    else{
+        $('nav').removeClass('black');
+    }
+})
+</script>
